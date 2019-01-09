@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MvcMusicStore.Models;
 
 namespace MvcMusicStore.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Details(int id)
+        public ActionResult Index()
         {
-            var album = new Album { Title = "Album " + id };
-            return View(album);
+            return View();
         }
 
         public ActionResult About()
