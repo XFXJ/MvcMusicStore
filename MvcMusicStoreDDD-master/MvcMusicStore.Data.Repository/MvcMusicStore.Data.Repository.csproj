@@ -82,10 +82,6 @@
       <Project>{1cfcf6c4-536e-4c6c-969a-2cd31f0dfa76}</Project>
       <Name>MvcMusicStore.Data.Context</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MvcMusicStore.Domain\MvcMusicStore.Domain.csproj">
-      <Project>{cee7b22f-c3ff-4f1e-92b0-8b30f52b3f1e}</Project>
-      <Name>MvcMusicStore.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

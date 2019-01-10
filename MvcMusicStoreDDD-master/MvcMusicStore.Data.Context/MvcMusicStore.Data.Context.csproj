@@ -71,12 +71,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MvcMusicStore.Domain\MvcMusicStore.Domain.csproj">
-      <Project>{cee7b22f-c3ff-4f1e-92b0-8b30f52b3f1e}</Project>
-      <Name>MvcMusicStore.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

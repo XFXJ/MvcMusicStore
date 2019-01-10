@@ -83,10 +83,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcMusicStore.Application\MvcMusicStore.Application.csproj">
-      <Project>{e0a19f7d-70f0-4238-bb02-f13d4f640c97}</Project>
-      <Name>MvcMusicStore.Application</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MvcMusicStore.Data.Context\MvcMusicStore.Data.Context.csproj">
       <Project>{1cfcf6c4-536e-4c6c-969a-2cd31f0dfa76}</Project>
       <Name>MvcMusicStore.Data.Context</Name>
@@ -94,10 +90,6 @@
     <ProjectReference Include="..\MvcMusicStore.Data.Repository\MvcMusicStore.Data.Repository.csproj">
       <Project>{a0781e24-d500-4681-a42e-92014be8a271}</Project>
       <Name>MvcMusicStore.Data.Repository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MvcMusicStore.Domain\MvcMusicStore.Domain.csproj">
-      <Project>{cee7b22f-c3ff-4f1e-92b0-8b30f52b3f1e}</Project>
-      <Name>MvcMusicStore.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

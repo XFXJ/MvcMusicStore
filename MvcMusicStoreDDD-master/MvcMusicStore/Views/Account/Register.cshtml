@@ -4,12 +4,12 @@
     ViewBag.Title = "Register";
 }
 
-<h2>Create a New Account</h2>
+<h2>创建一个新帐户</h2>
 <p>
-    Use the form below to create a new account. 
+    使用下面的表单创建一个新帐户。 
 </p>
 <p>
-    Passwords are required to be a minimum of @Membership.MinRequiredPasswordLength characters in length.
+    密码要求至少为 @Membership.MinRequiredPasswordLength 字符的长度。
 </p>
 
 @Scripts.Render("~/scripts/jquery-validate")
@@ -18,7 +18,7 @@
     @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again.")
     <div>
         <fieldset>
-            <legend>Account Information</legend>
+            <legend>账户信息</legend>
 
             <div class="editor-label">
                 @Html.LabelFor(m => m.UserName)
@@ -53,7 +53,7 @@
             </div>
 
             <p>
-                <input type="submit" value="Register" />
+                <input type="submit" value="提交" />
             </p>
         </fieldset>
     </div>

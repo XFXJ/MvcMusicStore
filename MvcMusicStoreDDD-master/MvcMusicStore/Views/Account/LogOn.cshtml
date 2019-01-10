@@ -4,9 +4,9 @@
     ViewBag.Title = "Log On";
 }
 
-<h2>Log On</h2>
+<h2>登录</h2>
 <p>
-    Please enter your user name and password. @Html.ActionLink("Register", "Register") if you don't have an account.
+    请输入您的用户名和密码 @Html.ActionLink("注册", "注册") 如果你没有账户的话
 </p>
 
 @Scripts.Render("~/scripts/jquery-validate")
@@ -16,7 +16,7 @@
 @using (Html.BeginForm()) {
     <div>
         <fieldset>
-            <legend>Account Information</legend>
+            <legend>账户信息</legend>
 
             <div class="editor-label">
                 @Html.LabelFor(m => m.UserName)
@@ -40,7 +40,7 @@
             </div>
 
             <p>
-                <input type="submit" value="Log On" />
+                <input type="submit" value="登录" />
             </p>
         </fieldset>
     </div>
